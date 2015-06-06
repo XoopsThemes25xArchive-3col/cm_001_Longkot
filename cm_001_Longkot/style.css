@@ -1,0 +1,229 @@
+/*  
+Nome Tema: cm_001_Longkot
+URI Tema: http://xoopsresources.altervista.org 
+Descrizione: Tema CSS per XOOPS .
+Versione: 1.0 | 10.03.2007
+Autore: Cristian Mulino 
+URI Autore: http://xoopsresources.altervista.org
+Mail Autore: cristian.mulino@fastwebnet.it
+*/
+
+/****** INIZIO TAG DELL' HTML ******/
+body { background-color: #ffffff; color: #666666; margin: 0px; padding: 0px; font-size: 12px; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; }
+table { width: 100%; }
+table td { padding: 0; border-width: 0; vertical-align: top; font-family: Verdana, Arial, Helvetica, sans-serif, Tahoma, taipei; }
+div td { padding: 0; border-width: 0; vertical-align: top; font-family: Verdana, Arial, Helvetica, sans-serif, Tahoma, taipei; }
+div#content { text-align: left; }
+div#content td { }
+td { font-family: Verdana, Arial, Helvetica, sans-serif, Tahoma, taipei; font-size: 12px; }
+th { text-align: left; text-decoration: underline; text-transform: capitalize; }
+pre , code, blockquote { margin: 0px; padding: 0px; }
+
+/****** Inizio Visualizzazione dei Links ******/
+a { color: #666666; text-decoration: none;}	
+a:hover {color: #ff6600; text-decoration: underline; }
+/****** Fine Visualizzazione dei Links ******/
+
+/****** Inizio Headings ******/
+h1 { margin: 0px; padding: 0; font-size: 180%; }
+h2 { margin: 0px; padding: 0; font-size: 150%; }
+h3 { margin: 0px; padding: 0; font-size: 130%; }
+h4 { margin: 0px; padding: 0; font-size: 110%; }
+h5 { margin: 0px; padding: 0; font-size: 90%; }
+h6 { margin: 0px; padding: 0; font-size: 75%; }
+/****** Fine Headings ******/
+
+ul, ol, dl { margin: 8px 0 5px 12px; padding: 0px; text-align: left; }
+ol li { margin: 4px 0 4px 18px; padding: 0px; list-style: decimal outside none; color: #333333; }
+ul li { margin-left: 10px; padding: 0; list-style: square outside; color: #333333; text-align: left; }
+
+/****** Inizio Form ******/
+form { margin: 0; padding: 0; }
+acronym, abbr { cursor: help; }
+textarea { border: #CCCCCC 1px solid; width: auto; color: #333333; font-family: verdana, arial, helvetica, sans-serif; font-size: 11px; height: 200px; overflow: auto; }
+button, select { border: 1px #CCCCCC solid; background: #FFFFFF; font-size: 11px; }
+input { border: 1px #999999 solid; font-size: 11px; }
+input[type=text], input[type=password] { border: 1px #C0C0C0 solid; }
+input[type=submit], input.formButton { border: 1px solid #666666; font-size: 11px; cursor: pointer; }
+input[type=reset], input.formButton { border: 1px solid #666666; background: #EAEAEA; font-size: 11px; cursor: pointer; }
+input[type=radio] { background: #FFFFFF; text-align: left; }
+input[type=checkbox] { margin: 0; padding: 0; text-align: right; }
+
+#searchbox { text-align:right; }
+#bottonecerca { border: 0px solid #cccccc; cursor: pointer; }
+#bottonecancella { border: 0px solid #cccccc; cursor: pointer; }
+/****** Fine Form ******/
+
+/* Hover and focus effects - Works only on Firefox/NS..*/
+input:hover, textarea:hover { border: 1px solid #9F9F9F; color: #000000 !important; background-color: #F5F5F5; }
+input[type=text]:focus, input[type=password]:focus, textarea:focus{ border: 1px solid #9F9F9F; background-color: #FFFFFF; font-size: 11px; }
+/****** FINE TAG DELL' HTML ******/
+
+/****** INIZIO LAYOUT DELL' HEADER ******/
+#header {margin: 0 auto; height: 178px; color: #000000; }
+#headerdx {height: 178px;}
+/****** Inizio del Titolo del sito nell' header ******/
+#headertitle { height: 151px; background: url("images/logo.gif") no-repeat center top; color: #ffffff; text-align: left; }
+
+/****** Inizio CSS per i dati Utenti  ******/
+.obUname { font-size: 16px; color: #000000; font-weight: bold; }
+.obUnameinfo { font-size: 12px; color: #000000; margin-right: 12px; }
+#usern { padding-top: 55px; line-height: 15px; text-align: left; }
+/****** Fine CSS per i dati Utenti  ******/
+
+/****** Fine del Titolo del sito nell' header ******/
+
+/****** Inizio del Menu orrizzontale dell' header ******/#headermenu { }	#headermenu a { color: #2d73b9; text-decoration: none; font-size: 13px; overflow: hidden; }
+#headermenu a:hover { color: #00aeed; text-decoration: none; font-size: 13px; overflow: hidden; }
+#headerbar { background: url("images/bg-line.gif"); background-repeat: repeat-x; height: 13px; }
+/****** Inizio Links normali ******/#headermenu .navi1 a{background: url("images/home.gif") no-repeat ; width: 98px;height: 27px; float: left; left: 0px; }#headermenu .navi2 a{background: url("images/news.gif") no-repeat ; width: 98px;height: 27px; float: left; left: 98px; }#headermenu .navi3 a{background: url("images/forum.gif") no-repeat ; width: 98px;height: 27px; float: left; left: 196px; }#headermenu .navi4 a{background: url("images/gallery.gif") no-repeat ; width: 98px;height: 27px; float: left; left: 294px; }#headermenu .navi5 a{background: url("images/links.gif") no-repeat ; width: 98px;height: 27px; float: left; left: 392px; }#headermenu .navi6 a{background: url("images/scrivici.gif") no-repeat ; width: 98px;height: 27px; float: left; left: 490px; }#headermenu .navi7 a{background: url("images/images/blank.gif") no-repeat ; width: 98px;height: 27px; float: left; left: 588px; }
+#headermenu .navi8 a{background: url("images/login.gif") no-repeat ; width: 98px;height: 27px; float: left; left: 686px; }
+#headermenu .navi9 a{background: url("images/logout.gif") no-repeat ; width: 98px;height: 27px; float: left; left: 784px; }
+/****** Fine Links normali ******/
+/****** Inizio Links hover ******/#headermenu .navi1 a:hover {background: url("images/home.gif") no-repeat ; width: 98px;height: 27px; float: left; left: 0px; }#headermenu .navi2 a:hover {background: url("images/news.gif") no-repeat ; width: 98px;height: 27px; float: left; left: 98px; }#headermenu .navi3 a:hover {background: url("images/forum.gif") no-repeat ; width: 98px;height: 27px; float: left; left: 196px; }#headermenu .navi4 a:hover {background: url("images/gallery.gif") no-repeat ; width: 98px;height: 27px; float: left; left: 294px; }#headermenu .navi5 a:hover {background: url("images/links.gif") no-repeat ; width: 98px;height: 27px; float: left; left: 392px; }#headermenu .navi6 a:hover {background: url("images/scrivici.gif") no-repeat ; width: 98px;height: 27px; float: left; left: 490px; }#headermenu .navi7 a:hover {background: url("images/images/blank.gif") no-repeat ; width: 98px;height: 27px; float: left; left: 588px; }
+#headermenu .navi8 a:hover {background: url("images/login.gif") no-repeat ; width: 98px;height: 27px; float: left; left: 686px; }
+#headermenu .navi9 a: hover{background: url("images/logout.gif") no-repeat ; width: 98px;height: 27px; float: left; left: 784px; }
+/****** Fine Links hover ******/
+/****** Inizio Links attivi ******/#headermenu .navi1 a:visited {background: url("images/home.gif") no-repeat ; width: 98px;height: 27px; float: left; left: 0px; }
+#headermenu .navi2 a:visited {background: url("images/news.gif") no-repeat ; width: 98px;height: 27px; float: left; left: 98px; }
+#headermenu .navi3 a:visited {background: url("images/forum.gif") no-repeat ; width: 98px;height: 27px; float: left; left: 196px; }
+#headermenu .navi4 a:visited {background: url("images/gallery.gif") no-repeat ; width: 98px;height: 27px; float: left; left: 294px; }
+#headermenu .navi5 a:visited {background: url("images/links.gif") no-repeat ; width: 98px;height: 27px; float: left; left: 392px; }
+#headermenu .navi6 a:visited {background: url("images/scrivici.gif") no-repeat ; width: 98px;height: 27px; float: left; left: 490px; }
+#headermenu .navi7 a:visited {background: url("images/images/blank.gif") no-repeat ; width: 98px;height: 27px; float: left; left: 588px; }
+#headermenu .navi8 a:visited {background: url("images/login.gif") no-repeat ; width: 98px;height: 27px; float: left; left: 686px; }
+#headermenu .navi9 a: visited {background: url("images/logout.gif") no-repeat ; width: 98px;height: 27px; float: left; left: 784px; }
+/****** Inizio Links attivi ******/
+
+/****** Fine del Menu orrizzontale dell' header ******/
+/****** FINE LAYOUT DELL' HEADER ******/
+
+/****** INIZIO LAYOUT DEL FOOTER ******/
+#footer { margin: 0 auto; height: 60px; line-height: 60px; background: url("images/hbar.gif") no-repeat center bottom; color: #000000; clear: both; font-size: 11px; text-align: center; position: relative; }
+#footer a { color: #2d73b9; text-decoration: none; font-size: 12px; overflow: hidden; }
+#footer a:hover { color: #00aeed; text-decoration: none; font-size: 12px; overflow: hidden; }
+#subfooter { text-align: center; color: #000000; font-size: 12px; font-family:  Arial,Verdana, Helvetica, sans-serif; }
+#subfooter a { color: #2d73b9; text-decoration: none; font-size: 12px; overflow: hidden; }
+#subfooter a:hover { color: #00aeed; text-decoration: none; font-size: 12px; overflow: hidden; }
+/****** FINE LAYOUT DEL FOOTER ******/
+
+/****** INIZIO GENERAL PURPOSE ID/CLASSES ******/
+.clear { clear: both; height: 0; }
+.hide { display: none; }
+.hidden { position: absolute; top: -1000em; }
+/****** FINE GENERAL PURPOSE ID/CLASSES ******/
+
+/****** INIZIO REQUESTED/DISPLAYED BY XOOPS ******/
+/****** Inizio Main Classes for table's sections visualization/discrimination ******/
+.outer {  }
+.head {padding: 5px; font-weight: bold;}
+.even {padding: 5px;}
+.odd {padding: 5px;}
+.foot {padding: 5px; font-weight: bold;}
+tr.even td {padding: 5px; border-width: 1px; border-style: dashed; border-color: #666666;}
+tr.odd td {padding: 5px; border-width: 1px; border-style: dashed; border-color: #666666;}
+th {color: #ff6600; padding : 2px; vertical-align : middle; font-family: Verdana, Arial, Helvetica, sans-serif;}
+/****** Fine Main Classes for table's sections visualization/discrimination ******/
+/****** FINE REQUESTED/DISPLAYED BY XOOPS ******/
+
+/****** INIZIO LAYOUT DELLE COLONNE ******/
+#container { width: 999px; padding: 4px; margin: 0 auto; }
+
+/****** Inizio colonne Centrali Centrali ******/
+#centercolumn { font-size: 10px; background: url("images/logoxr.gif"); background-repeat: no-repeat; background-position: 100% 10%; border-left: 1px dashed #fdde9a; border-right: 1px dashed #fdde9a; }
+#centercolumn th { vertical-align: middle; }
+#centerCcolumn { width: 98%; float: left; padding: 3px; margin:3px; }
+#bottomCcolumn { width: 98%; float: left; padding: 3px; margin:3px; }
+#centerCcolumn .blockTitle { line-height: 36px; height:36px; background: url("images/bllook.gif"); background-repeat: no-repeat; background-position: left; background-color: #fdde9a; color: #666666; font-size: 11px; font-weight: bold; font-variant: small-caps; text-align: center; border-width: 1px; border-style: dashed; border-color: #666666; }
+#bottomCcolumn .blockTitle { line-height: 36px; height:36px; background: url("imagesbllook.gif"); background-repeat: no-repeat; background-position: left; background-color: #fdde9a; color: #666666; font-size: 11px; font-weight: bold; font-variant: small-caps; text-align: center; border-width: 1px; border-style: dashed; border-color: #666666; }
+#centerCcolumn .blockContent {margin: 5px; padding: 5px; }
+#bottomCcolumn .blockContent {margin: 5px; padding: 5px; }
+/****** Fine colonne Centrali Centrali ******/
+
+/****** Inizio colonne Centrali Sinistra e Destra ******/
+#centerLcolumn {float: left; width: 48%; padding: 3px; margin: 3px; }
+#bottomLcolumn {float: left; width: 48%; padding: 3px; margin: 3px; }
+#centerRcolumn {float: right; width: 48%; padding: 3px; margin: 3px; }
+#bottomRcolumn {float: right; width: 48%; padding: 3px; margin: 3px; }
+#centerLcolumn .blockTitle { line-height: 36px; height:36px; background: url("images/bllook.gif"); background-repeat: no-repeat; background-position: left; background-color: #fdde9a; color: #666666; font-size: 11px; font-weight: bold; font-variant: small-caps; text-align: center; border-width: 1px; border-style: dashed; border-color: #666666; margin-top: 0px; }
+#bottomLcolumn .blockTitle { line-height: 36px; height:36px; background: url("images/bllook.gif"); background-repeat: no-repeat; background-position: left; background-color: #fdde9a; color: #666666; font-size: 11px; font-weight: bold; font-variant: small-caps; text-align: center; border-width: 1px; border-style: dashed; border-color: #666666; margin-top: 0px; }
+#centerRcolumn .blockTitle { line-height: 36px; height:36px; background: url("images/bllook.gif"); background-repeat: no-repeat; background-position: left; background-color: #fdde9a; color: #666666; font-size: 11px; font-weight: bold; font-variant: small-caps; text-align: center; border-width: 1px; border-style: dashed; border-color: #666666; margin-top: 0px; }
+#bottomRcolumn .blockTitle { line-height: 36px; height:36px; background: url("images/bllook.gif"); background-repeat: no-repeat; background-position: left; background-color: #fdde9a; color: #666666; font-size: 11px; font-weight: bold; font-variant: small-caps; text-align: center; border-width: 1px; border-style: dashed; border-color: #666666; margin-top: 0px; }
+#centerLcolumn .blockContent { padding: 5px; margin: 5px; line-height: 120%; }
+#centerRcolumn .blockContent { padding: 5px; margin: 5px; line-height: 120%; }
+#bottomLcolumn .blockContent { padding: 5px; margin: 5px; line-height: 120%; }
+#bottomRcolumn .blockContent { padding: 5px; margin: 5px; line-height: 120%; }
+/****** Fine colonne Centrali Sinistra e Destra ******/
+
+/****** Inizio contenuto dei Moduli ******/
+#content { text-align: left;	width: 610px; margin: 0 auto; margin: 4px; padding: 4px;}
+#xoopsbanner { text-align: center;	width: 100%; margin: 0px auto; }
+/****** Fine contenuto dei Moduli ******/
+
+/****** Inizio colonna Sinistra ******/
+#leftcolumn { width: 180px; float: left; padding-right: 2px; padding-left: 2px; padding-top: 10px; }
+#leftcolumn th { vertical-align: middle; }
+#leftcolumn .blockTitle { line-height: 36px; height:36px; background: url("images/bllook.gif"); background-repeat: no-repeat; background-position: left; background-color: #fdde9a; color: #666666; font-size: 11px; font-weight: bold; font-variant: small-caps; text-align: center; border-width: 1px; border-style: dashed; border-color: #666666; }
+#leftcolumn .blockContent { margin: 5px; padding: 5px; }
+/****** Fine colonna Sinistra ******/
+
+/****** Inizio colonna Destra ******/
+#rightcolumn { width: 180px; float: right; padding-right: 2px; padding-left: 2px; padding-top: 10px; }
+#rightcolumn th { vertical-align: middle; }
+#rightcolumn .blockTitle { line-height: 36px; height:36px; background: url("images/bllook.gif"); background-repeat: no-repeat; background-position: left; background-color: #fdde9a; color: #666666; font-size: 11px; font-weight: bold; font-variant: small-caps; text-align: center; border-width: 1px; border-style: dashed; border-color: #666666; }
+#rightcolumn .blockContent { margin: 5px; padding: 5px; border: 1px solid #cccccc; }
+/******  Fine colonna Destra ******/
+
+/****** FINE LAYOUT DELLE COLONNE ******/
+
+/****** Inizio specifiche per il menù di navigazione ******/
+td#mainmenu a {display: block; margin: 0; padding: 4px;}
+td#mainmenu a:hover {}
+td#mainmenu a.menuTop {padding-left: 3px;}
+td#mainmenu a.menuMain {padding-left: 3px;}
+td#mainmenu a.menuSub {padding-left: 9px;}
+
+td#usermenu a {display: block; margin: 0; padding: 4px;}
+td#usermenu a:hover {}
+td#usermenu a.menuTop {}
+td#usermenu a.highlight {}
+/****** Fine specifiche per il menù di navigazione ******/
+
+/****** Inizio Altre Classi per Xoops ******/
+..item {}
+.itemHead {padding: 3px; color: #666666; border-width: 1px; border-style: dashed; border-color: #666666; background-color: #fdde9a;}
+.itemInfo {text-align: right; padding: 3px;}
+.itemTitle a {font-size: 130%; font-weight: bold; font-variant: small-caps; color: #666666;}
+.itemPoster {font-size: 90%; font-style:italic;}
+.itemPostDate {font-size: 90%; font-style:italic;}
+.itemStats {font-size: 90%; font-style:italic;}
+.itemBody {padding-left: 5px;}
+.itemText {margin-top: 5px; margin-bottom: 5px; line-height: 1.5em;}
+.itemText:first-letter {font-size: 133%; font-weight: bold;}
+.itemFoot {text-align: right; padding: 3px; border-width: 1px; border-style: dashed; border-color: #666666; background-color: #fdde9a;}
+.itemAdminLink {font-size: 90%;}
+.itemPermaLink {font-size: 90%;}
+/****** Fine Altre Classi per Xoops ******/
+
+/****** Inizio Classi per i messaggi speciali ******/
+div.errorMsg {background-color: #FFCCCC; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.confirmMsg {background-color: #DDFFDF; color: #136C99; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.resultMsg {background-color : #CCCCCC; color: #333333; text-align: center; border-top: 1px solid silver; border-left: 1px solid silver; font-weight: bold; border-right: 1px solid #666666; border-bottom: 1px solid #666666; padding: 10px;}
+div.xoopsCode {background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+div.xoopsQuote {background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: 10px; color: #2F5376; font-weight:bold; border: 1px solid silver; background-color: #ffffff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #2F5376; font-weight:bold; font-size: 10px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px;font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: smaller}
+.comDateCaption {font-weight: bold; font-style: normal;}
+/****** Fine Classi per i messaggi speciali ******/
+
+/****** Questo CSS fà parte dei temi rivolti a XOOPS prodotti da Cristian Mulino <a href="http://xoopsresources.altervista.org">XOOPS RESOURCES</a> ******/

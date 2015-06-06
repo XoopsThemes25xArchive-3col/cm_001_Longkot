@@ -1,0 +1,12 @@
+<{if $xoops_lblocks or $xoops_rblocks}>
+
+<!-- Later content -->
+<{if $block.title == ''}> <!-- Useful for diplaying well blockswith no title -->
+<div class="blockContent"><{$block.content}></div>
+<{else}>
+<div class="blockTitle"><{$block.title}></div>
+<div class="blockContent"><{$block.content}></div>
+<{/if}>
+<!-- Content end -->
+
+<{/if}>
